@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    background: inherit; 
+    border:none; 
+    box-shadow:none;
+    border-radius:0;
+    padding:0;
+    overflow:visible;
+    cursor:pointer;
+}
+
+.wrapper {
+    max-width: 800px;
+    margin: 100px auto;
+}
+
+.box {
+    text-align: center;
+    font-size: 30px;
+    height: 400px;
+    background-color: dodgerblue;
+    color: white;
+}
+
+.user-box {
+    padding: 100px;
+}
+
+input {
+    height: 30px;
+}
+
+.btn {
+    background-color: powderblue;
+    border-radius: 5px;
+    padding: 5px 20px;
+    color: azure;
+}
