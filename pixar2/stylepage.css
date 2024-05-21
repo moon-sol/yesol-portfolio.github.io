@@ -1,0 +1,189 @@
+/* Resets */
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration:none;
+    outline: none
+}
+
+
+/* Typography */
+:root {
+    font-size: 10px;
+}
+
+/* Layouts */
+.l_wrapper {
+    max-width: 1050px;
+    margin: 0 auto;
+}
+
+.l_row {
+    display: flex;;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.l_col {
+    flex-basis:  58.33333333%;
+    margin: 20px 0;
+    display: flex;
+    flex-direction: row;
+}
+
+/* Components */
+body {
+    background-color: #181C1F;
+}
+
+.header {
+    background-color: #31373E;
+}
+
+.header-inside {
+    display: flex;
+    position: relative;
+    left: 0;
+    top: 0;
+}
+
+.header-logo {
+    padding: 10px 0;
+}
+
+.header-point {
+    position: absolute;
+    margin-right:-60px;
+    top: 0;
+    right: 0;
+}
+
+.header-nav {
+    display: flex;
+    max-height: 50px;
+    /* gap: 5px; */
+    font-size: 1.5rem;
+    background-color: #282C32;
+
+}
+
+.lnb {
+    padding: 15px 20px;
+}
+   
+.lnb a {
+    color: #888B8E;
+}
+  
+/* .lnb:hover {
+    background-color: #1C1F23;
+}
+   
+.lnb a:hover {
+    color: white;
+} */
+
+.lnb.selected:hover {
+    background-color: #1C1F23;
+}
+    
+.lnb.selected a:hover {
+    color: white;
+}
+   
+
+/* section */
+.contents { 
+    background-color: #1C1F23;
+}
+
+
+.section-box {
+    color: white;
+    background-color: #111111;
+    border-radius: 10px;
+}
+
+.star {
+    position: absolute;
+    object-fit: cover;
+    right: 0;
+}
+
+.section-title {
+    border-top: 6px solid #616262;
+    padding: 10px;  
+    overflow: hidden;
+    border-radius: 0 0 10px 10px;
+    padding-left: 150px;
+}
+
+.section-icon {
+    position: absolute;
+    bottom: 30%;
+}
+
+.white {
+    border: none;
+    color:black;
+    background-color: white;
+}
+
+.section-item {
+    font-size: 2rem;
+    color: green;
+}
+
+.main {
+    object-fit: cover;
+    position: relative;
+ 
+}
+
+.main img {
+    vertical-align: top;
+    border-radius: 10px 10px 0 0;
+
+}
+
+.card img {
+    padding:  0 20px;
+}
+
+.section-description {
+    font-size: 1.5rem;
+    padding: 20px 0;
+}
+
+.aticle {padding-left: 20px;}
+
+.aticle-img {
+    width: 100%;
+
+}
+
+.footer {
+    color: #616262;
+    background-color: #181C1F;
+    padding: 35px 0;
+    border-top: 1px solid white;
+}
+
+/* Mediaquries */
+
+/* Tablet */
+@media ( max-width: 1024px ) {
+    
+.l_col {
+    box-sizing: border-box;
+    padding: 0 20px;
+}
+
+.l_col_4_12  { width: 33.33333333%; }
+} 
+
+/* Mobile */
+@media ( max-width: 480px ) {
+    .l_col_12_12 { width: 100%; }
+} 
