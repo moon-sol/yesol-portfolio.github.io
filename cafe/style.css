@@ -1,0 +1,64 @@
+/* Resets */
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    vertical-align: top;
+    object-fit: cover;
+}
+
+/* Layout */
+.wrapper {
+    display: flex;
+    gap: 20px;
+}
+
+.l_row {
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.l_col {
+    max-width: 30%;
+    box-sizing: border-box;
+}
+
+/* Component */
+.cover-text {
+    position: absolute;
+    bottom: 0;
+    color: white;
+    font-size: 100px;
+}
+
+.cover {
+    max-height: 1400px;
+    aspect-ratio: 9 / 16;
+}
+
+.contents-text {
+    padding: 20px 0;
+}
+
+.contents-text.button {
+    font-size: 20px;
+    display: flex;
+    gap: 20px;
+    
+}
+
+.button-aticle {
+      background-color: yellow;
+      padding: 15px;
+}
+
+.button-aticle.right {
+    text-align: right;
+}
